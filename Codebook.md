@@ -19,6 +19,11 @@ An 'f' prefix identifies that a Fast Fourier Transform was applied to the signal
 Variables marked with an X, Y or Z identify that the variable measures the component
 of the measurement on one of the 3-axis.
 
+Acc measurements were taken from the accelerometer with units of m/s^2 (rate of acceleration).
+Gyro measurement were taken from the gyroscope with units ?/2p (rate of rotation).
+
+All units were normalised in the original data set to be in the range [-1,1]
+
 Body refers to the fact that the variable represents the body portion of the acceleration signal,
 while Gravity identifies the gravity portion.
 
@@ -26,6 +31,8 @@ Jerk variables refer to the rate of change of acceleration,
 and are based on the body linear accelaration and angular velocity.
 
 Mag represent the Magnitude of the 3-dimensional variable, and so have no XYZ split.
+
+
 
 Angle variables represent the angle between two vectors
 
